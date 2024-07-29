@@ -23,8 +23,8 @@ resource "azurerm_linux_virtual_machine" "terraform_vm" {
 
   source_image_reference {
     publisher = "Canonical"
-    offer     = "0001-com-ubuntu-server-jammy-arm64"
-    sku       = "22_04-lts-gen2-arm64"
+    offer     = "0001-com-ubuntu-server-jammy"
+    sku       = "22_04-lts-arm64"
     version   = "latest"
   }
 
